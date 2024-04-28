@@ -1,0 +1,30 @@
+{
+  "name": "igorimprotacrud-node",
+  "version": "1.0.0",
+  "description": "crud de libreria con mongodb en nodejs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igor-ims/IgorImprotaCRUD-node.git"
+  },
+  "author": "Igor IMS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/igor-ims/IgorImprotaCRUD-node/issues"
+  },
+  "homepage": "https://github.com/igor-ims/IgorImprotaCRUD-node#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.2",
+    "nodemon": "^3.1.0"
+  }
+}
